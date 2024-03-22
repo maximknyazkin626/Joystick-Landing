@@ -464,12 +464,12 @@
   }
 }
 
-@media (max-width: 306px) {
+@media (max-width: 360px) {
   .header-text {
     display: none;
   }
   .logo_a {
-    margin: 140%;
+    margin: 130%;
   }
 
   .main-title {
@@ -507,7 +507,11 @@
   .circle {
     width: 160px;
     height: 160px;
-    right: 24%;
-    bottom: 15%;
+    right: 26%;
+    bottom: 0%;
+  }
+
+  .second-block {
+    display: none;
   }
 }
