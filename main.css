@@ -476,7 +476,6 @@
   .logo_a {
     margin: 130%;
   }
-
   .main-title {
     padding-left: 20px;
     font-size: 30px;
@@ -485,7 +484,6 @@
   .title-description {
     display: none;
   }
-
   .first-block {
     flex-wrap: wrap;
     flex-direction: column;
@@ -499,7 +497,6 @@
     width: 100%;
     height: 53%;
   }
-
   .main-image {
     margin-top: 0px;
     margin-left: 10%;
@@ -515,8 +512,28 @@
     right: 26%;
     bottom: 0%;
   }
-
   .second-block {
     display: none;
+  }
+  .third-block {
+    height: auto;
+  }
+  .form-title {
+    font-size: 28px;
+    padding-top: 0;
+  }
+  .field:nth-child(n + 2) {
+    margin-left: 0;
+  }
+  .button {
+    margin-left: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 78%;
+  }
+
+  .field {
+    margin-top: 50px;
+    width: 78%;
   }
 }
