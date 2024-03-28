@@ -513,10 +513,11 @@
     bottom: 0%;
   }
   .second-block {
-    display: none;
+    display: block;
   }
   .third-block {
     height: auto;
+    padding-top: 10%;
   }
   .form-title {
     font-size: 28px;
@@ -535,5 +536,56 @@
   .field {
     margin-top: 50px;
     width: 78%;
+  }
+  .second-block {
+    height: auto;
+  }
+  .secondary-block {
+    height: auto;
+    margin-top: 0;
+    flex-direction: column;
+  }
+  .choose {
+    width: 100%;
+    background: inherit;
+  }
+  .choose-title {
+    color: #22252b;
+    font-size: 30px;
+  }
+  .choose-description {
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0;
+    margin-top: 10%;
+    margin-right: 15%;
+    margin-left: 60px;
+    display: none;
+  }
+  .choose-list {
+    font-size: 20px;
+    font-weight: 400;
+    display: block;
+  }
+  .cards {
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 0;
+  }
+  .card {
+    flex-direction: column;
+  }
+  .card-part {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+  }
+  .text {
+    padding-top: 5%;
+  }
+  .text-green {
+    padding-top: 5%;
+    margin-bottom: 15%;
   }
 }
