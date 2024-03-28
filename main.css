@@ -260,6 +260,11 @@
   margin-left: 25px;
 }
 
+.button:hover {
+  cursor: pointer;
+  background-color: #5f9397;
+}
+
 .title {
   width: 50%;
 }
