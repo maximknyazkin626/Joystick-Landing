@@ -583,4 +583,47 @@
     padding-top: 5%;
     margin-bottom: 15%;
   }
+  .popup__content {
+    width: 90%;
+  }
+  .popup__content-title {
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+  .popup__main-content {
+    flex-flow: column;
+  }
+  .popup__content-aside {
+    width: 100%;
+    font-size: 14px;
+    order: 2;
+  }
+  .characteristics {
+    padding-left: 0;
+    padding-bottom: 1%;
+  }
+  .popup__content-imgside {
+    width: 100%;
+    font-size: 16px;
+  }
+  .joyimage11 {
+    width: 60%;
+  }
+  .joyimage22 {
+    width: 50%;
+    padding-top: 3%;
+  }
+  .characteristics_mark {
+    padding-left: 0;
+    margin-bottom: 3%;
+  }
+  .basket_button {
+    width: 170px;
+    font-size: 14px;
+    margin-top: 2%;
+  }
+  .popup__close {
+    right: 0;
+    top: -40px;
+  }
 }
