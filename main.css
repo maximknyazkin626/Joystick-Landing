@@ -592,7 +592,7 @@
     width: 90%;
   }
   .popup__content-title {
-    font-size: 20px;
+    font-size: 24px;
     margin-bottom: 0;
   }
   .popup__main-content {
@@ -600,7 +600,7 @@
   }
   .popup__content-aside {
     width: 100%;
-    font-size: 14px;
+    font-size: 18px;
     order: 2;
   }
   .characteristics {
@@ -612,11 +612,12 @@
     font-size: 16px;
   }
   .joyimage11 {
-    width: 60%;
+    width: 80%;
   }
   .joyimage22 {
-    width: 50%;
+    width: 60%;
     padding-top: 3%;
+    padding-left: 0;
   }
   .characteristics_mark {
     padding-left: 0;
@@ -624,8 +625,10 @@
   }
   .basket_button {
     width: 170px;
-    font-size: 14px;
+    font-size: 16px;
     margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
   }
   .popup__close {
     right: 0;
