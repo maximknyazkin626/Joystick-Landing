@@ -158,10 +158,11 @@
 }
 
 .joyimage1 {
-  width: 100%;
-  height: 100%;
+  width: 85%;
+  height: 85%;
   background: inherit;
   box-sizing: border-box;
+  padding-left: 12%;
 }
 
 .joyimage2 {
@@ -490,25 +491,29 @@
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 480px) {
   .header-text {
     display: none;
   }
   .logo_a {
-    margin: 130%;
+    margin-left: 120%;
   }
   .main-title {
     padding-left: 20px;
-    font-size: 30px;
     padding-top: 40px;
+    font-size: 40px;
+    line-height: 120%;
   }
   .title-description {
-    display: none;
+    padding-left: 20px;
+    line-height: 140%;
+    font-size: 22px;
+    padding-right: 10px;
   }
   .first-block {
     flex-wrap: wrap;
     flex-direction: column;
-    height: 800px;
+    height: 762px;
   }
   .title {
     width: 100%;
@@ -517,21 +522,22 @@
   .title-image {
     width: 100%;
     height: 53%;
+    position: static;
   }
   .main-image {
-    margin-top: 0px;
-    margin-left: 10%;
-    width: 80%;
+    margin-top: 25%;
+    margin-left: 2.5%;
+    width: 95%;
   }
   .choose-description_button {
     font-size: 20px;
-    padding-top: 40px;
+    padding-top: 55px;
   }
   .circle {
-    width: 160px;
-    height: 160px;
-    right: 26%;
-    bottom: 0%;
+    width: 200px;
+    height: 200px;
+    right: 5%;
+    bottom: 0;
   }
   .second-block {
     display: block;
@@ -573,6 +579,7 @@
   .choose-title {
     color: #22252b;
     font-size: 30px;
+    display: none;
   }
   .choose-description {
     font-size: 20px;
@@ -586,7 +593,7 @@
   .choose-list {
     font-size: 20px;
     font-weight: 400;
-    display: block;
+    display: none;
   }
   .cards {
     width: 100%;
@@ -633,7 +640,11 @@
     font-size: 16px;
   }
   .joyimage11 {
-    width: 80%;
+    width: 90%;
+    margin-top: 10%;
+  }
+  .joyimage1 {
+    margin-top: 25%;
   }
   .joyimage22 {
     width: 60%;
