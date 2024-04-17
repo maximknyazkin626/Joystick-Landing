@@ -460,6 +460,7 @@
   margin: 0;
 }
 
+/* ---------------1280>------------ */
 @media (max-width: 1280px) {
   .menu {
     padding-left: 3%;
@@ -490,6 +491,8 @@
     display: none;
   }
 }
+
+/* ---------------480------------ */
 
 @media (max-width: 480px) {
   .header-text {
@@ -544,11 +547,15 @@
   }
   .third-block {
     height: auto;
-    padding-top: 10%;
+    padding-top: 35%;
+    position: relative;
   }
   .form-title {
-    font-size: 28px;
+    font-size: 40px;
     padding-top: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: right;
   }
   .field:nth-child(n + 2) {
     margin-left: 0;
@@ -570,30 +577,35 @@
   .secondary-block {
     height: auto;
     margin-top: 0;
+    margin-bottom: 0;
     flex-direction: column;
+    width: 100%;
   }
   .choose {
     width: 100%;
-    background: inherit;
+    background-color: #22252b;
+    order: 2;
   }
   .choose-title {
-    color: #22252b;
-    font-size: 30px;
-    display: none;
+    color: #fffefe;
+    font-size: 40px;
+    line-height: 120%;
+    padding: 60px 60px 0px 10%;
   }
   .choose-description {
-    font-size: 20px;
-    font-weight: 400;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 140%;
     padding: 0;
     margin-top: 10%;
     margin-right: 15%;
-    margin-left: 60px;
-    display: none;
+    margin-left: 10%;
   }
   .choose-list {
-    font-size: 20px;
-    font-weight: 400;
-    display: none;
+    font-size: 22px;
+    font-weight: 300;
+    padding-left: 10%;
+    margin-bottom: 35%;
   }
   .cards {
     width: 100%;
@@ -667,12 +679,17 @@
     top: -40px;
   }
   .dec_img1 {
-    display: none;
+    display: block;
+    width: 62.5%;
+    left: 0;
+    top: -22%;
   }
   .dec_img2 {
     display: none;
   }
 }
+
+/* ---------------360------------ */
 
 @media (max-width: 360px) {
   .main-image {
@@ -681,21 +698,54 @@
     width: 95%;
   }
   .circle {
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     right: 0%;
     bottom: -35%;
   }
-  .choose-description {
-    font-size: 20px;
-    font-weight: 400;
-    padding: 0;
-    margin-top: 10%;
-    margin-right: 15%;
-    margin-left: 60px;
-    display: none;
+  .choose-description_button {
+    padding-top: 47px;
   }
   .joyimage1 {
     margin-top: 40%;
+  }
+
+  .choose {
+    width: 100%;
+    background-color: #22252b;
+    order: 2;
+  }
+  .choose-title {
+    color: #fffefe;
+    font-size: 35px;
+    line-height: 120%;
+    padding: 60px 60px 0px 40px;
+  }
+  .choose-description {
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 140%;
+    padding: 0;
+    margin-top: 10%;
+    margin-left: 40px;
+  }
+  .choose-list {
+    font-size: 22px;
+    font-weight: 300;
+    padding-left: 40px;
+    margin-bottom: 35%;
+  }
+  .form-title {
+    font-size: 35px;
+    padding-top: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: right;
+  }
+  .dec_img1 {
+    display: block;
+    width: 62.5%;
+    left: 0;
+    top: -19%;
   }
 }
