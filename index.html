@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gamepad Landing</title>
     <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="modal.css" />
   </head>
   <body>
     <div class="header">
@@ -181,7 +182,14 @@
 
     <div class="third-block">
       <div class="form-title">Гарантия до полугода! Звоните</div>
-      <form class="form">
+      <!-- ///////Модальное окно после заполнения формы////// -->
+      <div id="formModal" class="formModal hide">
+        <div id="modalContent" class="modalContent">
+          <span id="modalClose" class="modalClose">×</span>
+          <p class="modalText">Text text text text text text</p>
+        </div>
+      </div>
+      <form class="form" id="feedback">
         <input class="field" type="text" placeholder="Ваше имя" />
         <input class="field" type="tel" placeholder="Ваш телефон" required />
         <button class="button" type="submit">Заказать звонок</button>
@@ -198,4 +206,5 @@
       />
     </div>
   </body>
+  <script src="index.js"></script>
 </html>

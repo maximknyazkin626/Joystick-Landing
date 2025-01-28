@@ -1,0 +1,34 @@
+.formModal {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+
+.hide {
+  display: none;
+}
+
+.modalContent {
+  position: relative;
+  width: 60%;
+  margin: 15% auto;
+  padding: 15%;
+  border: 3px solid black;
+
+  background: #22252b;
+}
+.modalClose {
+  position: absolute;
+  color: #fff;
+  right: -35px;
+  top: -40px;
+  font-size: 30px;
+
+  cursor: pointer;
+}
+.modalText {
+}

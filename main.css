@@ -333,6 +333,7 @@
   display: none;
   justify-content: center;
   align-items: center;
+  z-index: 2;
 }
 
 .popup__toggle {
@@ -352,7 +353,7 @@
 
   padding: 20px;
   box-sizing: border-box;
-  z-index: 2;
+  /* z-index: 2; */
 }
 
 .popup__close {
