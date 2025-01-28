@@ -1,7 +1,10 @@
 .formModal {
+  display: flex;
   position: fixed;
   width: 100%;
   height: 100%;
+  justify-content: center;
+  align-items: center;
   left: 0;
   top: 0;
   background: rgba(0, 0, 0, 0.5);
@@ -14,21 +17,27 @@
 
 .modalContent {
   position: relative;
-  width: 60%;
-  margin: 15% auto;
-  padding: 15%;
-  border: 3px solid black;
-
+  width: 33%;
+  padding: 7%;
+  border: 4px solid #7ca9ad;
+  border-radius: 20px;
   background: #22252b;
 }
 .modalClose {
   position: absolute;
   color: #fff;
-  right: -35px;
-  top: -40px;
+  right: -3%;
+  top: -8%;
   font-size: 30px;
 
   cursor: pointer;
 }
 .modalText {
+  color: #fff;
+  font-family: BlinkMacSystemFont, Segoe UI, Roboto, Open Sans, Ubuntu,
+    Fira Sans, Helvetica Neue, sans-serif;
+  text-align: center;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
 }
