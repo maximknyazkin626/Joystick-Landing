@@ -213,14 +213,14 @@
 }
 
 .dec_img1 {
-  width: 15%;
+  width: 13%;
   position: absolute;
   left: 0;
   top: 4%;
 }
 
 .dec_img2 {
-  width: 15%;
+  width: 13%;
   position: absolute;
   right: 0;
   top: 0;
@@ -696,7 +696,7 @@
   .main-image {
     margin-top: 40%;
     margin-left: 2.5%;
-    width: 95%;
+    width: 90%;
   }
   .circle {
     width: 180px;
