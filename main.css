@@ -749,4 +749,31 @@
     left: 0;
     top: -19%;
   }
+  /* Модальное окно мобильное */
+  .modalContent {
+    position: relative;
+    width: 33%;
+    padding: 7%;
+    border: 4px solid #7ca9ad;
+    border-radius: 20px;
+    background: #22252b;
+  }
+  .modalClose {
+    position: absolute;
+    color: #fff;
+    right: -3%;
+    top: -8%;
+    font-size: 30px;
+  
+    cursor: pointer;
+  }
+  .modalText {
+    color: #fff;
+    font-family: BlinkMacSystemFont, Segoe UI, Roboto, Open Sans, Ubuntu,
+      Fira Sans, Helvetica Neue, sans-serif;
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+  }
 }
