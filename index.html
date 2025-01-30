@@ -11,10 +11,12 @@
     <div class="header">
       <div class="logo-space">
         <img
+          id="burgerLogo"
           class="logo"
           src="https://i.postimg.cc/fRsJ9Dkv/icon-menu-1.png"
           alt="menu icon"
         />
+        <div id="burger" class="burger hide">TEST TEST TEST</div>
       </div>
       <div class="menu">
         <div class="header-text">Каталог геймпадов</div>
@@ -190,8 +192,19 @@
         </div>
       </div>
       <form class="form" id="feedback">
-        <input id="inputName" class="field" type="text" placeholder="Ваше имя" />
-        <input id="inputNum" class="field" type="tel" placeholder="Ваш телефон" required />
+        <input
+          id="inputName"
+          class="field"
+          type="text"
+          placeholder="Ваше имя"
+        />
+        <input
+          id="inputNum"
+          class="field"
+          type="tel"
+          placeholder="Ваш телефон"
+          required
+        />
         <button class="button" type="submit">Заказать звонок</button>
       </form>
       <img

@@ -491,6 +491,9 @@
   .dec_img2 {
     display: none;
   }
+  .modalText {
+    font-size: 36px;
+  }
 }
 
 /* ---------------480------------ */
@@ -764,7 +767,7 @@
     right: -3%;
     top: -8%;
     font-size: 30px;
-  
+
     cursor: pointer;
   }
   .modalText {
