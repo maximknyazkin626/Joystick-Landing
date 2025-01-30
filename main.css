@@ -43,7 +43,7 @@
 
 .first-block {
   width: 100%;
-  height: 800px;
+  height: 100vh;
   display: flex;
   background: #22252b;
 }
@@ -498,7 +498,7 @@
 
 /* ---------------480------------ */
 
-@media (max-width: 480px) {
+@media (min-width: 360px) and (max-width: 480px) {
   .header-text {
     display: none;
   }
@@ -690,6 +690,12 @@
   }
   .dec_img2 {
     display: none;
+  }
+  .burger {
+    width: 100%;
+  }
+  .burgerClose {
+    left: 90%;
   }
 }
 

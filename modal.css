@@ -32,6 +32,20 @@
 
   cursor: pointer;
 }
+
+.burgerClose {
+  position: fixed;
+  color: #fff;
+  left: 25%;
+  top: 3%;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.burgerClose:hover {
+  color:gray;
+}
+
 .modalText {
   color: #fff;
   font-family: BlinkMacSystemFont, Segoe UI, Roboto, Open Sans, Ubuntu,
@@ -42,15 +56,30 @@
   font-weight: 400;
 }
 
-/* .burger {
-  display: flex;
+.burger {
+  display: none;
   position: fixed;
-  width: 100%;
-  height: 100%;
+  width: 30%;
+  height: 100vh;
   justify-content: center;
   align-items: center;
   left: 0;
   top: 0;
   background-color: #22252b;
-  z-index: -10;
-} */
+  z-index: 2;
+}
+
+.burgerList {
+  color: #7ca9ad;
+  list-style-type: none;
+  font-family: BlinkMacSystemFont, Segoe UI, Roboto, Open Sans, Ubuntu,
+    Fira Sans, Helvetica Neue, sans-serif;
+  text-align: center;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.burgerList:hover {
+  color: #d0e0e2;
+}

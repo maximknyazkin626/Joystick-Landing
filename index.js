@@ -35,5 +35,9 @@ let burgerLogo = document.getElementById("burgerLogo");
 let burger = document.getElementById("burger");
 
 burgerLogo.onclick = () => {
-  burger.classList.remove("hide");
+  burger.style.display = 'flex';
 };
+
+burger.onclick = () => {
+  burger.style.display = 'none';
+}
