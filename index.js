@@ -31,13 +31,26 @@ inputNum.addEventListener("focus", () => {
   inputNum.placeholder = "+7-(9**)-***-**-**";
 });
 
+//////Открытие бургер-меню
 let burgerLogo = document.getElementById("burgerLogo");
 let burger = document.getElementById("burger");
 
 burgerLogo.onclick = () => {
-  burger.style.display = 'flex';
+  burger.style.display = "flex";
 };
 
 burger.onclick = () => {
-  burger.style.display = 'none';
+  burger.style.display = "none";
+};
+
+//////Валидация на ввод имени(проверка что имя не пустое)
+function validationEmpty(event) {
+  let input = event.target;
+  if (input.value.trim() === "") {
+    alert("Нет уж, введи нормальное имя пожалуйста");
+  }
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+  inputName.addEventListener("blur", validationEmpty);
+});
