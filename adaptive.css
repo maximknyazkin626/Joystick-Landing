@@ -69,7 +69,7 @@
     position: static;
   }
   .main-image {
-    margin-top: 35%;
+    margin-top: 30%;
     margin-left: 2.5%;
     width: 95%;
   }
@@ -81,7 +81,7 @@
     width: 200px;
     height: 200px;
     right: 5%;
-    bottom: -35%;
+    bottom: -15%;
   }
   .second-block {
     display: block;
@@ -257,7 +257,7 @@
     width: 180px;
     height: 180px;
     right: 0%;
-    bottom: -35%;
+    bottom: -15%;
   }
   .choose-description_button {
     padding-top: 47px;
@@ -330,5 +330,19 @@
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
+  }
+
+  /* Личный кабинет модалка */
+  .signContent {
+    width: 330px;
+  }
+  .signIn{
+    width: 300px;
+  }
+  .logIn{
+    width:300px;
+  }
+  .signTitle {
+    font-size: 24px;
   }
 }

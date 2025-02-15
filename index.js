@@ -5,6 +5,11 @@ let modalText = document.querySelector(".modalText");
 let inputName = document.getElementById("inputName");
 let inputNum = document.getElementById("inputNum");
 
+/////Функция для убирания класса hide
+function removeHide(element) {
+  element.classList.toggle("hide");
+}
+
 /////Отправление формы и появление модального окна
 feedback.addEventListener("submit", (e) => {
   e.preventDefault();
@@ -54,3 +59,17 @@ function validationEmpty(event) {
 document.addEventListener("DOMContentLoaded", () => {
   inputName.addEventListener("blur", validationEmpty);
 });
+
+////Появление Модального окна для Личного Кабинета
+let lk = document.getElementById("lk");
+let lkModal = document.getElementById("signModal");
+lk.onclick = () => {
+  removeHide(lkModal);
+}
+
+lkModal.onclick = () => {
+  removeHide(lkModal);
+}
+
+
+
