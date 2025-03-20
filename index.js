@@ -63,6 +63,7 @@ document.addEventListener("DOMContentLoaded", () => {
 ////Появление Модального окна для Личного Кабинета
 let lk = document.getElementById("lk");
 let lkModal = document.getElementById("signModal");
+let lkContent = document.getElementById("signContent");
 lk.onclick = () => {
   removeHide(lkModal);
 }
@@ -70,6 +71,28 @@ lk.onclick = () => {
 lkModal.onclick = () => {
   removeHide(lkModal);
 }
+
+lkContent.onclick = (event) => {
+  event.stopPropagation();
+}
+
+/////Появление окна регистрации
+let reg = document.getElementById('register');
+let regModal = document.getElementById('registerModal');
+let regContent = document.getElementById('registerContent');
+
+reg.onclick = () => {
+  removeHide(lkModal);
+  removeHide(regModal);
+}
+
+regModal.onclick = () => {
+  removeHide(regModal);
+}
+regContent.onclick = (event) => {
+  event.stopPropagation();
+}
+
 
 
 

@@ -544,7 +544,7 @@
 }
 
 
-/************************** Модальное окно для регистрации *********************/
+/************************** Модальное окно для в личный кабинет *********************/
 
 .signModal{
   display: flex;
@@ -633,6 +633,63 @@
 .signButton:hover {
   cursor: pointer;
   background-color: #5f9397;
+}
+
+.hide {
+  display: none;
+}
+
+/************************** Модальное окно для регистрации *********************/
+.registerModal{
+  display: flex;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+
+.registerContent{
+  width: 450px;
+  height: 500px;
+  background-color: #000000;
+  box-sizing: content-box;
+  border-radius: 20px;
+  border: 3px solid #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: BlinkMacSystemFont, Segoe UI, Roboto, Open Sans, Ubuntu,
+    Fira Sans, Helvetica Neue, sans-serif;
+  font-size: 16px;
+}
+
+.register{
+  width: 335px;
+  height: 270px;
+  border-radius: 20px;
+  border: 3px solid #7CA9AD;
+  margin-top: 32px;
+  background-color: #22252B;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+.registerButton {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 270px;
+  height: 55px;
+  background-color: #7CA9AD;
+  color: #FFFFFF;
+  font-weight: 600;
+  border-radius: 20px;
 }
 
 .hide {
