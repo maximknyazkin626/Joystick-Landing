@@ -27,13 +27,13 @@
         <div id="signModal" class="signModal hide">
           <div id="signContent" class="signContent">
             <span class="signTitle">Войти в личный кабинет</span>
-            <div class="signIn">
-              <span style="padding-top: 20px; align-items: start;">Логин</span>
-              <input type="text" class="signField"/>
-              <span>Пароль</span>
-              <input type="text" class="signField"/>
-              <button class="signButton">Войти</button>
-            </div>
+            <form id="signForm" class="signIn">
+              <label for="signLogin" style="padding-top: 20px; align-items: start;">Логин</label>
+              <input id="signLogin" type="text" class="signField"/>
+              <label for="signPas">Пароль</label>
+              <input id="signPas" type="text" class="signField"/>
+              <button type="submit" class="signButton">Войти</button>
+            </form>
             <div class="logIn">
               <span style="color: #FFFFFF; font-size: 16px; padding-top:20px; font-weight: 600;">Ещё нет личного кабинета?</span>
               <span id="register" style="color: #7CA9AD; font-size: 16px; padding-top:10px; font-weight: 600;">Зарегистрироваться</span>
@@ -41,16 +41,16 @@
           </div>
         </div>
         <div id="registerModal" class="registerModal hide">
-          <div id="registerContent" class="registerContent">
+          <form id="registerContent" class="registerContent">
             <span class="signTitle">Зарегистрироваться</span>
             <div class="register">
-              <span style="padding-top: 20px; align-items: start;">Логин</span>
-              <input type="text" class="signField"/>
-              <span>Пароль</span>
-              <input type="text" class="signField"/>
-              <button class="registerButton">Создать кабинет</button>
+              <label for="regLogin" style="padding-top: 20px; align-items: start;">Логин</label>
+              <input id="regLogin" type="text" class="signField"/>
+              <label for="regPas">Пароль</label>
+              <input id="regPas" type="text" class="signField"/>
+              <button  id="registerButton" type="submit" class="registerButton">Создать кабинет</button>
             </div>
-          </div>
+          </form>
         </div>
       </div>
       <div class="menu">
@@ -238,5 +238,6 @@
       <img class="dec_img2" src="images/footer-joystick2.png" alt="Joystick" />
     </div>
     <script src="index.js"></script>
+    <script src="lk.js"></script>
   </body>
 </html>
