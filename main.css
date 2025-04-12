@@ -605,6 +605,18 @@
   align-items: center;
 }
 
+.registerButton_link {
+  color: #7CA9AD; 
+  font-size: 16px; 
+  padding-top:10px; 
+  font-weight: 600;
+}
+
+.registerButton_link:hover {
+  cursor: pointer;
+  color: #5f9397;
+}
+
 .signField {
   display: inline-block;
   box-sizing: border-box;
